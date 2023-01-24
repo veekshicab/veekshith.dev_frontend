@@ -90,52 +90,52 @@ const Homepage = () => {
 
 
   return (
-    // <Box
-    //   display="flex"
-    //   flexDirection="column"
-    //   justifyContent="space-between"
-    //   minHeight="100vh"
-    // >
-    //   <Header />
-    //   <Box className="content">
-    //     <Stack spacing={2} className="form">
-    //       <h2 className="title">Login</h2>
-    //       <TextField
-    //         id="email"
-    //         label="email"
-    //         variant="outlined"
-    //         title="email"
-    //         name="email"
-    //         placeholder="Enter email"
-    //         fullWidth
-    //         value={email}
-    //         onChange={(e) => setemail(e.target.value)}
-    //       />
-    //       <TextField
-    //         id="password"
-    //         variant="outlined"
-    //         label="password"
-    //         name="password"
-    //         type="password"
-    //         fullWidth
-    //         placeholder="Enter a password"
-    //         value={password}
-    //         onChange={(e) => setPassword(e.target.value)}
-    //       />
-    //       <Button className="button" variant="contained" onClick={login} >
-    //         LOGIN TO QKART
-    //       </Button>
-    //       <p className="secondary-action">
-    //         Don't have an account?{" "}
-    //         <Link className="link" to="/register">
-    //           Register now
-    //         </Link>
-    //       </p>
-    //     </Stack>
-    //   </Box>
-    //   <Footer />
-    // </Box>
-    <h1>Sites is under development</h1>
+    <Box
+      display="flex"
+      flexDirection="column"
+      justifyContent="space-between"
+      minHeight="100vh"
+    >
+      <Header />
+      <Box className="content">
+        <Stack spacing={2} className="form">
+          <h2 className="title">Login</h2>
+          <TextField
+            id="email"
+            label="email"
+            variant="outlined"
+            title="email"
+            name="email"
+            placeholder="Enter email"
+            fullWidth
+            value={email}
+            onChange={(e) => setemail(e.target.value)}
+          />
+          <TextField
+            id="password"
+            variant="outlined"
+            label="password"
+            name="password"
+            type="password"
+            fullWidth
+            placeholder="Enter a password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+          <Button className="button" variant="contained" onClick={login} >
+            LOGIN TO QKART
+          </Button>
+          <p className="secondary-action">
+            Don't have an account?{" "}
+            <Link className="link" to="/register">
+              Register now
+            </Link>
+          </p>
+        </Stack>
+      </Box>
+      <Footer />
+    </Box>
+    
   );
 
 
